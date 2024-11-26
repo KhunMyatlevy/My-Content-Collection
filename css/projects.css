@@ -1,0 +1,89 @@
+body {
+    padding: 50px;
+}
+.project{
+    padding: 1%;
+    background-color: #edf0f5;
+    border-radius: 10px;
+}
+.project a {
+    display: block;
+    padding: 1%;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+
+.project h2, p {
+    padding: 1%;
+    background-color: white;
+    color:black;
+    border-radius: 10px;
+}
+
+
+.details h3, ul {
+    padding: 1%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.details li {
+    margin-left: 20px;
+}
+
+.github-button a {
+    padding: 1%;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+    align-items: center;
+    width: 100%;
+
+}
+
+.project-screenshot{
+    display: flex;
+    justify-content: space-between; /* Distributes items with equal space between them */
+    gap: 20px; 
+    flex-wrap: wrap;
+}
+
+.project-screenshot img {
+    border-radius: 20px;
+    width: 48%;
+    height: 500px;
+    
+}
+
+/* Responsive view for mobile screens */
+@media (max-width: 768px) {
+    body {
+        padding: 0px; /* Remove extra padding for a clean mobile layout */
+        position: relative;
+        right: 20px;
+    }
+
+    .project-screenshot {
+        flex-direction: column; /* Stack images vertically */
+        gap: 20px; /* Space between images */
+        width: 100%; /* Ensure the container takes full width */
+    }
+
+    .project-screenshot img {
+        width: 100%; /* Make each image take the full width */
+        height: auto; /* Maintain aspect ratio and allow image to scale */
+    }
+
+    .project, .project a, .project h2, p, .details h3, ul, .github-button a {
+        width: 100%; /* Ensure all content is full width on mobile */
+        margin-bottom: 20px; /* Add space between elements */
+        padding: 10px; /* Add some padding for a cleaner look */
+    }
+
+    .project h2 {
+        width: 98%;
+    }
+}

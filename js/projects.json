@@ -1,0 +1,30 @@
+[
+    {
+        "title": "API 101",
+        "url": "projects/API_101.html",
+        "image": "images/How API work in simple example.png"
+    },
+
+    {
+        "title": "Resistance Training 101",
+        "url": "projects/Resistance_Training_101.html",
+        "image": "images/Resistance training 101.jpg"
+    },
+
+    
+    {
+        "title": "How to Start Skincare Without Breaking the Bank",
+         "url": "projects/How to Start Skincare Without Breaking the Bank.html",
+        "image": "images/Skin Care Basic 101.jpg"
+    },
+
+    {
+        "title": "Glycerin 101 ",
+         "url": "projects/Glycerin 101.html",
+        "image": "images/Glycerin 101 .png"
+    }
+
+
+    
+]
+
