@@ -19,10 +19,17 @@
     },
 
     {
-        "title": "Glycerin 101 ",
+        "title": "Glycerin 101",
          "url": "projects/Glycerin 101.html",
         "image": "images/Glycerin 101 .png"
+    },
+
+    {
+        "title": "The art of fetching API",
+         "url": "projects/The art of fetching API.html",
+        "image": "images/fetch.png"
     }
+
 
 
     

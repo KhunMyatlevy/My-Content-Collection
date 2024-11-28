@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="../css/projects.css"> <!-- Link to your main stylesheet -->
+</head>
+<body>
+
+    <div class="project">
+        <h2>The art of fetching API</h2>
+        <p>What’s up! Tech Nerds! Hacker အေးမောင် ဖြစ်ပါတယ်။ ဒီနေ့မှာတော့ API ကနေ Data fetch အခါမှာအသုံးများတဲ့ Javascript built in function ထဲကတစ်ခုဖြစ်တဲ့ fetch function အကြောင်းကိုsharingလုပ်ပေးမှာဖြစ်ပါတယ်။
+
+            Website တွေမှာ data တွေကို dynamically load တာတွေ၊ weather app မှာ weather data တွေကို dynamically load တာတွေက behind the scene မှာဘာတွေဘယ်လိုဖြစ်နေတာလဲကိုစိတ်ဝင်စားတယ်ဆိုရင်ဒီpostလေးကိုအဆုံးထိဖတ်ဖိုအေးမောင်ရဲ့tech nerds‌တွေကိုsuggest လုပ်ချင်ပါတယ်။
+            
+            What is fetch () ?
+            fetch ဆိုတာ Javascript ရဲ့ built-in function တွေထဲကတစ်ခုဖြစ်ပြီး client app(front end) ကနေ API ကို HTTP request လုပ်ရာမှသုံးတဲ့ function တစ်ခုဖြစ်ပါတယ်။
+            
+            Key Parts of Using fetch
+            fetch function တစ်ခုမှာ URL နှင့် Options ဆိုတဲ့အပိုင်း ၂ ပိုင်းပါဝင်ပါတယ်။ URL ကတော့နာမည်အတိုင်းပဲ request ပိုရမယ့် URL address or API endpoint ပဲဖြစ်ပါတယ်။ Options မှာတော့ Method၊ Headers နှင့် Bodyဆိုတဲ့အပိုင်းသုံးပိုင်းထပ်ပါဝင်ပါတယ်။ Method မှာတော့ ကိုယ်ပြုလုပ်မယ့် HTTP request method ကိုသတ်မှတ်ရတာဖြစ်ပါတယ် (method: 'POST') ။ Headers မှာတော့  content type တွေ  authentication tokens တွေအပြင်တခြားသော metadata တွေကိုပါ requests နဲ့အတူ key-value pairs အနေနဲ့တွဲပိုဖိုသုံးပါတယ်။ Body မှာတော့ API ကို data ပိုချင်တဲ့အခါ၊ POST OR PUT request လုပ်ချင်တဲ့အခါမှာပိုချင်တဲ့ data ကို  key-value pairs အနေနဲ့တွဲပိုဖိုသုံးပါတယ်။
+            
+            How Does an API Work?
+            client app (front end) ကနေ API ကို request လုပ်လိုက်တဲ့အခါမှာ API ကို Host ထားတဲ့ server ကိုယ့် ရဲ့ URL and Options ၂ ခုလုံးပါတဲ့ request ကရောက်သွားမှာပဲဖြစ်ပါတယ်။ Server က request ကို process ပြီး ပြန်လာတဲ့ response မှာ request အောင်မြင်လားကိုပြသတဲ့ Status Code (200 OK, 404 Not Found),
+             response ရဲ့ content type လို meta data တွေပါတဲ့ Headers,
+             API ကပြန်ပိုလိုက်တဲ့ data ပါဝင်တဲ့ Body ဆိုပြီး ပါဝင်ပါတယ်။ 
+            Body မှာပါလာတဲ့ data တွေက json format ဖြစ်တဲ့အတွက်ပြန်ပြီးကိုယ်လိုချင်တဲ့ format ပြန်ပြောင်းဖိုကအရေးကြီးပါတယ်။
+            
+            ဒါကတော့ fetch function သုံးပုံနဲ့API call တစ်ခုပြုလုပ်တဲ့အခါbehind the scene မှာဖြစ်တဲ့ process ပဲဖြစ်ပါတယ်။ ဒီ page မှာ programming နဲ့ပတ်သက်တဲ့ content တွေကိုဆက်ပြီးတင်ပေးသွားမှာဖြစ်လို like and follow လုပ်ပေးဖို‌ေအး‌ေမာင်requestချင်ပါတယ်ဗျ။ Postလေးကိုသဘောကျနှစ်သက်တယ်ဆိုရင်တော့reactလေးပေးပြီးshareပေးပါနော်
+        </p>
+        
+        
+        <div class="project-screenshot">
+            <img src="../images/fetch.png" alt="API 101">
+        </div>
+    
+        <a href="../project-list.html">See More Projects</a>
+    </div>
+    
+
+</body>
+</html>
