@@ -6,6 +6,39 @@
     },
 
     {
+        "title": "Version Control 101",
+        "url": "projects/version_control_101.html",
+        "image": "images/Version Control 101.png"
+    },
+
+    {
+        "title": "Front End 101",
+        "url": "projects/frontend.html",
+        "image": "images/Front end ဆိုတာဘာလဲ။.png"
+    },
+
+
+    {
+        "title": "Data Types 101",
+        "url": "projects/Data_types.html",
+        "image": "images/Data Types.png"
+    },
+
+    {
+        "title": "Backend 101",
+         "url": "projects/backend.html",
+        "image": "images/backend 101.png"
+    },
+
+    
+    {
+        "title": "The art of fetching API",
+         "url": "projects/The art of fetching API.html",
+        "image": "images/fetch.png"
+    },
+
+
+    {
         "title": "Resistance Training 101",
         "url": "projects/Resistance_Training_101.html",
         "image": "images/Resistance training 101.jpg"
@@ -22,14 +55,9 @@
         "title": "Glycerin 101",
          "url": "projects/Glycerin 101.html",
         "image": "images/Glycerin 101 .png"
-    },
-
-    {
-        "title": "The art of fetching API",
-         "url": "projects/The art of fetching API.html",
-        "image": "images/fetch.png"
     }
 
+   
 
 
     

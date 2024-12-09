@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="../css/projects.css"> <!-- Link to your main stylesheet -->
+</head>
+<body>
+
+    <div class="project">
+        <h2>Version Control 101</h2>
+        <p>Understanding Version Control: A Guide to Managing Code Effectively
+            What’s up! Tech Nerds! Hacker အေးမောင် ပြန်လာပါပြီ။ ဒီနေ့မှာတော့လူတွေသိပ်မပြောကြပေမယ် programmer တွေအတွက်အရေးကြီးတယ် version control အကြောင်းပြောပြသွားမှာဖြစ်ပါတယ်။
+            
+            What is version control? 
+            
+            Version control ဆိုတာကိုယ် project ထဲက file တွေကို track ပေးတဲ့ system လိုအလွယ်မှတ်လို့ရပါတယ်။ File တွေကို track နိုင်ခြင်းဖြင့် file ထဲက code အပြောင်းလဲမှန်သမျှကို record ယူနိုင်သည်အပြင် code မှားဖျက်မိတာ overwrite မိတာကအစပြန်ပြင်နိုင်ပါသေးတယ်။ ဒါအပြင် branch တွေသုံးပဲမတူညီတဲ့ developer ၂ယောက်က code file တစ်ခုထဲကိုပဲတစ်ပြိုင်တည်းရေးနိုင်ပါသေးတယ်။ပြီးမှာပိုကောင်းတဲ့ လူရဲ့ code ကို merge လိုက်ယုံပါပဲ။အသေးစိတ်ကိုအောက်မှဆက်ရှင်းပြပါမယ်။
+            
+            The problems without version control
+            
+            Version control ကမဖြစ်မနေသုံးရမယ်မဟုတ်ပေမယ်သူကိုမသုံးရင်လဲ developer တစ်ယောက်အနေနဲ့အလုပ်လုပ်ရတာခက်ပါတယ်။အထူးသဖြစ် large scale application တွေကိုကိုင်တွယ်ရပြီဆို version control မသုံးထားရင်တော်တော်တိုင်ပတ်ပါတယ်။ code တွေမှားဖျက်တာ၊ မှားပြီးပြန်ရေးမိတာတွေဖြစ်ရင် back up code မရှိတဲ့ခါမှအကုန်ပြန်ရေးရပါတယ်။
+            
+            Key concepts of version control 
+            
+            Repository 
+            Repository ကိုကိုယ် Project ရဲ့ code တွေအပြင် code history ကိုပါသိမ်းပေးထားတဲ့ file or folder အနေနဲ့မှတ်လို့ရပါတယ်။ Resporitry မှာ Local resporitry နဲ့ remote resporitry ဆိုပြီး၂မျိုးရှိပါတယ်။ Local resporitry ဆိုတာ Local ဆိုတဲ့အတိုင်းကိုယ်ရဲ့ pc or machine မှာပဲသိမ်းထားတာဖြစ်ပြီး remote resporitry ကတော့ git hub တို့လို့ platform တွေမှာသိမ်းတာကိုပြောတာပါ။ Local resporitry တစ်ခုဖန်တီးဖို့အတွက် Git ကိုသုံးရပါတယ်။ remote resporitry ကိုတော့ Git ကိုသုံးပြီးဖန်တီးလို့လဲရသလို Git hub ကိုသုံးပြီး drag and drop နဲ့လဲ file တွေကိုသိမ်းလို့ရပါတယ်။
+            
+            Commit 
+            
+            Commit ကိုအလွယ်ပြောရရင်တော့ code အပြောင်းလဲတွေကို save ထားပေးတဲ့ screen shot or snapshot လိုသတ်မှတ်လို့ရပါတယ်။ သူက code တစ်ခုကို overwrite တာဖြစ်ဖြစ်၊ code အသစ်တွေထည့်ရမှာ comment တစ်ခုနှင့်အတူ commit လုပ်နိုင်စေပါတယ်။ commit လုပ်လိုက်ရင် code က resporitry ထဲမှာ ပြောင်းလဲသွားမှာဖြစ်ပြီးအဲအပြောင်းလဲကိုလဲ မှတ်တမ်းတင်ထားမှာဖြစ်ပါတယ်။
+            
+            Branch 
+            
+            Branch ကိုနားလည်လွယ်အောင်ဥပမာတစ်ခုနှင့်ရှင်းပြပါမယ်။ ကိုယ်ရဲ့ project မှာ feature အသစ်ထည့်ချင်တယ်ထားပါတော့။ ဒါပေမယ် ရှိပြီးသား code တွေကိုလဲမှားဖျက်မိတာ၊ မှားပြီး overwrite မိတာမဖြစ်ချင်ဘူး feature အသစ်ကိုလဲလုံးဝအလုပ်လုပ်တာသေချာမှာကိုယ် project ထဲထည့်ချင်တယ်ဆိုရင် Branch ကိုသုံးလို့ရပါတယ်။ Branch ဆိုတာရှင်းရှင်းပြောရရင် project တစ်ခုလုံးကို copy ပြီး feature အသစ်ကိုထည့်  feature အသစ်ကအဆင်ပြေတော့မှအဲဒါကို မူရင်း project နဲ့သွားပေါင်းတာမျိုးပါ။ ဒါပေမယ် Branch မှာတော့ project တစ်ခုလုံးကို copy စရာမလိုပဲ Branch တစ်ခုဖန်တီးလိုက်ယုံနဲ့ feature သစ်ကိုရေးနိုင်စေတာပါ။ ကိုယ်ရဲ့ feature ကလဲအလုပ်လုပ်ပြီဆိုရင်တော့ merge လုပ်ပြီး မူရင်း project ထဲကိုထည့်လိုက်ယုံပါပဲ။
+            
+            Merge
+            
+            Merge ကတော့ရှင်းပါတယ်။ Branch မှာရေးထားတဲ့ code တွေကိုမူရင်း project မှာပေါင်းထည့်ချင်ရင်သုံးရပါတယ်။
+            
+            Branch တစ်ခုနှင့်တစ်ခုကိုလဲ‌ပေါင်းချင်ရင် merge ကိုသုံးပါတယ်။
+            
+            Pull and Push 
+            
+            Pull ဆိုတာ remote repository က file တွေကိုကိုယ်ရဲ့ local repository ထဲကိုထည့်ချင်ရင်သုံးပါတယ်။
+            Push ကိုတော့ ကိုယ်ရဲ့ local repository က file တွေကို remote repository  ထဲကိုထည့်ချင်ရင်သုံးပါတယ်။
+            
+            Summary 
+            
+            Version Control System ဆိုတာအသုံးပြုရတာလွယ်ကူပြီး developer တွေအတွက်အသုံးဝင်တဲ့ tool တစ်ခုဖြစ်ပါတယ်။ ကိုယ်က Project အကြီးကြီးတွေလုပ်တာဖြစ်ဖြစ်၊ သူများတွေနဲ့ collaborate project လုပ်တဲ့အခါတွေမှာမဖြစ်မနေကိုသုံးသင့်တဲ့ tool ဖြစ်ပါတယ်။ကျနော်ကတော့ဘယ် project မဆိုသေးသေးကြီးကြီး version control ကိုသုံးပြီးအကျင့်ဖြစ်‌အောင်လုပ်ထားဖို့အကြံပေးချင်ပါတယ်။ဒီ page မှာ programming နဲ့ပတ်သက်တဲ့ content တွေတင်ပေးသွားမှာဖြစ်တဲ့အတွက်ကြိုက်နှစ်သက်ရင် ilke and follow လုပ်သွားလို့ရပါတယ်။ Post ကိုလဲ ကြိုက်နှစ်သက်ရင် share သွားလို့ရပါတယ်။ဒီနေ့တော့ဒီလောက်ပါပဲ။
+        </p>
+     
+        
+        
+        <div class="project-screenshot">
+            <img src="../images/Version Control 101.png" alt="API 101">
+        </div>
+    
+        <a href="../project-list.html">See More Projects</a>
+    </div>
+    
+
+</body>
+</html>

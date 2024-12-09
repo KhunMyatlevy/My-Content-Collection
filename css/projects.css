@@ -44,12 +44,14 @@ body {
 
 }
 
-.project-screenshot{
+.project-screenshot {
     display: flex;
-    justify-content: space-between; /* Distributes items with equal space between them */
-    gap: 20px; 
+    justify-content: center; /* Centers items in the middle horizontally */
+    gap: 20px; /* Space between items */
     flex-wrap: wrap;
+    margin-bottom: 20px;
 }
+
 
 .project-screenshot img {
     border-radius: 20px;
