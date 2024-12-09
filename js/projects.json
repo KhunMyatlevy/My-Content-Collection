@@ -12,6 +12,13 @@
     },
 
     {
+        "title": "Object Oriented Programming",
+        "url": "projects/Object Oriented Programming.html",
+        "image": "images/oop img.jpg"
+    },
+
+
+    {
         "title": "Front End 101",
         "url": "projects/frontend.html",
         "image": "images/Front end ဆိုတာဘာလဲ။.png"
