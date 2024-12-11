@@ -6,6 +6,13 @@
     },
 
     {
+        "title": "What is Web Socket",
+        "url": "projects/Object Oriented Programming.html",
+        "image": "images/Web Socket အကြောင်းသိကောင်းစရာ.png"
+    },
+
+
+    {
         "title": "Version Control 101",
         "url": "projects/version_control_101.html",
         "image": "images/Version Control 101.png"

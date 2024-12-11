@@ -96,12 +96,15 @@ nav {
         padding: 0; /* Remove padding inside the project container */
         width: 100%; /* Full width for project container */
         margin: 0; /* Remove margin */
+        
+        
     }
 
     .project-item {
         width: 100%; /* Full width for project items */
         padding: 10px; /* Add some padding inside each project */
         margin-bottom: 20px; /* Add space between project items */
+        
     }
 
     .project-item img {
