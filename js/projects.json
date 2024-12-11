@@ -11,6 +11,12 @@
         "image": "images/Web Socket အကြောင်းသိကောင်းစရာ.png"
     },
 
+    {
+        "title": "Difference between SQL and NO SQL",
+        "url": "projects/sql_vs_no_sql.html",
+        "image": "images/SQL and NO SQL ဘာကွာလဲ.png"
+    },
+
 
     {
         "title": "Version Control 101",
