@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="../css/projects.css"> <!-- Link to your main stylesheet -->
+</head>
+<body>
+
+    <div class="project">
+        <h2>Routing 101</h2>
+        <p>Routing ဆိုတာဘာလဲ 
+
+            What’s up! Tech Nerds! Hacker အေးမောင် ပြန်လာပါပြီ။ဒီနေ့မှာတော့ Website တစ်ခုရဲ့ backend မှာအရေးကြီးတဲ့ Routing အကြောင်းကိုပြောပြသွားမှာဖြစ်ပါတယ်။
+            
+            What is routing ?
+            
+            Routing ကိုနားလည်လွယ်အောင်ရှင်းပြရရင် user က ကိုယ် website ရဲ့ function တစ်ခုကိုအသုံးပြုချင် or page တစ်ခုကိုကြည့်ချင်တဲ့အခါမှမှန်ကန်တဲ့ response ကို website ဘက်ကပြန်နိုင်အောင်ပြုလုပ်ပေးတယ်လို့မှတ်လို့ရပါတယ်။ ဥပမာပေးရရင် ကျနော်က website တစ်ခုရဲ့ about us page ကိုအသေးစိတ်ကြည့်ချင်လို့ about us ကိုနှိပ်လိုက်ရင် website ကအဲ about us page ကိုအသေးစိတ်ပြပေးတယ်ပေါ့။ ဒီနေရာမှာကျနော်တို့က ငါ about us page ကိုအသေးစိတ်ကြည့်ချင်တယ်လို့ website ကိုပြောလိုက်တာဖြစ်ပြီး routing ကအဲတာကိုနား‌ထောင်ပြီး server ကို အဲ user ကို about us page ပြလိုက်လို့ပြောတာနဲ့တူတူပါပဲ။
+            
+            How routing work ?
+            
+            Routing အလုပ်လုပ်ပုံကရှင်းပါတယ်။ User က page တစ်ခုကိုကြည့်ချင်တဲ့အခါမှာ အဲ page ကို request လုပ်ရပါတယ်။ ထို page ဆီသို့ user ကိုပို့ပေးပါတယ်။ ထို user ကိုပို့ပေးတဲ့ function ကို acess ဖို့ url address ထို function ရဲ့ url address ကိုသိဖို့လိုပါတယ်။ ဒီနေရာမှာ url address ဆိုတာကိုသိဖို့လိုလာပါပြီ။ Url address ဆိုတာက‌တော့ website မှာရှိတဲ့ function တွေ or pages တွေရဲ့ address ပါပဲ။ သူတိုကိုသုံးချင်ရင်ဒီ address တွေကသုံးရပါတယ်။ လမ်းထပ်ကအိမ်ကမုန့်ဟင်းခါးရောင်းပြီးဘေးအိမ်က အသုပ်ရောင်းသလိုပါပဲ။ မတူညီတဲ့ feature ၂ခုကိုပေးနိုင်တဲ့ မတူညီတဲ့ adress ၂ခုပါပဲ။ ပြောချင်တာကတော့ website တစ်ခုမှာ function တွေအများကြီးရှိပြီး မတူညီတဲ့ funtion တစ်ခုစီတိုင်းမှာ မတူညီတဲ့ adress တွေရှိပါတယ်။
+            
+            One of the key feature of routing
+            
+            Dynamic Routes : ဒါကတော့ rounting သုံးပြီးရတဲ့ feautre တွေထဲကကျနော်အကြိုက်ဆုံးဆိုလဲမမှားပါဘူး။ သူက url address မှာ data တွေကို dyanmic ထည့်စေနိုင်ပြီး routing ကို dyanmic လုပ်နိင်စေတာပါ။ ဘယ်လိုမျိုးလဲဆိုရင် facebook မှာ သူများ profile ကို stalk ရင်မြင်ရတဲ့ user တစ်ယောက်ချင်းစီရဲ့ profile page က dyamic routing ကိုသုံးထားတာပါ။ သူကများသောအားဖြင့် (profile/user_id) လိုမျိုး address နဲ့လာတတ်ပြီး user_id ကတော့ကိုကြည့်နေတယ် user ပေါ်မှုတည်ပြီးပြောင်းနေမှာပါ။ အကယ်၍ mgmg ရဲ့ user_id က 1 ဖြစ်နေမယ်ဆိုရင်သူရဲ့ profile page url address က (profile/1) ဆိုပြီးဖြစ်နေမှာပါ။ 
+            
+            Routing ဆိုတာကတော့ backend development ရဲ့အခြေခံတွေထဲကတစ်ခုဖြစ်ပြီးမဖြစ်မနေကိုသိထားသင့်တာပါ။ဒီ page မှာ programming နဲ့ပတ်သက်တာတွေတင်ပေးသွားမှာဖြစ်တဲ့အတွက်ကြိုက်နှစ်သက်ရင်တော့ like and follow လုပ်သွားလို့ရပါတယ်။ဒီ post ကိုကြိုက်နှစ်သက်ရင်လဲ like and share သွားလို့ရပါတယ်။ဒီနေ့တော့ဒီလောက်ပါပဲ။
+        </p>
+        
+        
+        <div class="project-screenshot">
+            <img src="../images/home.png" alt="Routing 101">
+        </div>
+    
+        <a href="../project-list.html">See More Projects</a>
+    </div>
+    
+
+</body>
+</html>
