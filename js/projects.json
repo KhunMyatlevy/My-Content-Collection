@@ -1,5 +1,11 @@
 [
     {
+        "title": "DOM 101",
+        "url": "projects/DOM_101.html",
+        "image": "images/Document Object Model.png"
+    },
+
+    {
         "title": "Local Storage 101",
         "url": "projects/Local_Storage_101.html",
         "image": "images/Local Storage 101.png"
