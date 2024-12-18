@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="../css/projects.css"> <!-- Link to your main stylesheet -->
+</head>
+<body>
+
+    <div class="project">
+        <h2>Session ဆိုတာလဲ ?</h2>
+        <p>
+
+            အားလုံးပဲ mingalar pr Hacker အေးမောင်ပြန်လာပါပြီ။ဒီနေ့မှာတော့ JWT Token လိုပဲ authentication and authorization မှာအရေးပါတဲ့ session အကြောင်းပြောပြသွားမှာဖြစ်ပါတယ်။
+            
+            What is a Session?
+            
+            Session ဆိုတာ JWT token နဲ့ဆင်တူပါတယ်။ သူက user ရဲ့ data တွေကို authorization အတွက်ပြန်လည်အသုံးပြုရန်သုံးထားပေးတာပါပဲ။ ဘယ်လို data တွေကိုသိမ်းလဲဆိုရင် user က login ထားမထားသိရအောင် login status, user က post ဖန်တီးရာတွင် user name ကိုသိနိုင်စေရင် user name or user id လိုမျိုးတွေကိုသိမ်းပါတယ်။ JWT token နဲ့မတူတာကတော့သိမ်းထားပုံပါပဲ။ 
+            
+            How Sessions Work ?
+            
+            Session အလုပ်လုပ်ပုံကို ဥပမာနှင့်တစ်ကွရှင်းပြပါမယ်။ User က website တစ်ခုမှာ login လိုက်တဲ့အခါ request တစ်ခုကို server စီပို့လိုက်ပါတယ်။ အဲနောက် server က login လာတဲ့ user ရဲ့ user name and password တွေက register ထားတဲ့လူတွေထဲကတစ်ယောာက်လားစစ်ပါတယ်( register ထားမထားစစ်)။ အဲနောက်မှတော့ login uesr ဟာ register ထားတယ်ဆိုရင်တော့ server ကနေပြီး session တစ်ခုကိုဖန်တီးပါတယ်။ အဲထဲမှာတော့ login status, user name and user id လိုမျိုး data တွေကိုသိမ်းတယ်ပေါ့။ ဒါပေမယ် JWT token နဲ့မတူတာက session ကို user ကိုပြန်မပေးပဲ server မှာပဲသုံးထားပါတယ်။ ဒါပေမယ် user authorization အတွက် user data တွေကိုအသုံးချရန်အတွက်တော့ session id ကိုတော့ user ကိုပြန်ပေးလိုက်ပါတယ်။ အဲ session id ကို browser ထဲမှာ cookie အနေနဲ့သိမ်းထားပါတယ်။ cookie အကြောင်းသိချင်ရင် commnet မှာမေးသွားလို့ရပါတယ်။
+            
+            Making Requests 
+            
+            User က session id လဲရပြီဆိုရင်တော့စပြီး request လုပ်လို့ရပါပြီ။ User က login ထားတဲ့ user တွေသာကြည့်လို့ရတဲ့ page တစ်ခုကိုကြည့်ဖို့ request လိုက်ပြီဆိုရင်တော့ broswer က request အပြင်ကိုမှ cookie အနေသိမ်းထားတဲ့ session id ကိုပါ sever စီပို့ပေးလိုက်ပါတယ်။ Server က session id ကိုကြည့်ပြီးနောက် login ထားတာမှန်တယ်ဆိုရင်တော့ user ကြည့်ချင်တဲ့ page ကိုပြပေးပါတယ်။
+            
+            Key Features of Sessions
+            
+            Session ရဲ့ key features တွေကတော့
+            
+            Server-Side Storage : User ရဲ့အရေးကြီးတဲ့ data တွေအကုန်လုံးနီးပါးက server မှာပဲသိမ်းထားတာဖြစ်တဲ့အတွက်ပိုပြီးလုံခြုံပါတယ်။
+            
+            Temporary Nature : Session ကအချိန်တစ်ခုကြာတဲ့အခါ expire သွားလေ့ရှိပြီး user က browser ကိုပိတ်လိုက်ရင်လဲသူဘာသာပျက်စီးသွားပါတယ်။
+            
+            Conclusion
+            
+            Session ဆိုတာကတော့ user data တွေကိုလုံလုံခြုံခြုံနဲ့ authentication and authorization အတွက်သုံးချင်တဲ့အခါမှာအရေးကြီးတဲ့ concept တစ်ခုဖြစ်ပါတယ်။ဒီpage မှာ programming နဲ့ပတ်သက်တာတွေတင်ပေးသွားမှာဖြစ်တဲ့အတွက်ကြိုက်နှစ်သက်ရင်တော့ like and follow လုပ်သွားလိုရပါတယ်။ဒီ post ကိုကြိုက်နှစ်သက်ရင်လဲ like and share သွားလိုရပါတယ်။သိချင်တာရှိရင်လဲ comments မှာလာမေးလို့ရပါတယ်။ ရေး‌စေချင်တာမျိုးရှိရင်လဲ comments မှာရေးသွားလို့ရပါတယ်။ဒီနေ့တော့ဒီလောက်ပါပဲ။
+            
+            </p>
+     
+        
+        <div class="project-screenshot">
+            <img src="../images/Session ဘယ်လိုအလုပ်လုပ်လဲ.png" alt="Session 101">
+        </div>
+    
+        <a href="../project-list.html">See More Projects</a>
+    </div>
+    
+
+</body>
+</html>
