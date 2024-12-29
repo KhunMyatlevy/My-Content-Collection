@@ -1,5 +1,10 @@
 [
     {
+        "title": "Frame Work 101",
+        "url": "projects/framework_101.html",
+        "image": "images/Framework 101.png"
+    },
+    {
         "title": "Muscle Building Make Simple",
         "url": "projects/muscle_build_make_simple.html",
         "image": "images/Muscle Building Make Simple.png"
