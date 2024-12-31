@@ -1,5 +1,10 @@
 [
     {
+        "title": "Website တစ်ခုဘယ်လိုအလုပ်လုပ်လဲ",
+        "url": "projects/how_website_work.html",
+        "image": "images/Website တစ်ခုဘယ်လိုအလုပ်လုပ်လဲ.png"
+    },
+    {
         "title": "Frame Work 101",
         "url": "projects/framework_101.html",
         "image": "images/Framework 101.png"
