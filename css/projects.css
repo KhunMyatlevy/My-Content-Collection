@@ -6,7 +6,7 @@ body {
     background-color: #edf0f5;
     border-radius: 10px;
 }
-.project a {
+.project a  {
     display: block;
     padding: 1%;
     text-decoration: none;
@@ -15,7 +15,14 @@ body {
     border-radius: 10px;
 }
 
-.project h2, p {
+
+.project h2  {
+    padding: 1%;
+    background-color: white;
+    color:black;
+    border-radius: 10px;
+}
+.project p  {
     padding: 1%;
     background-color: white;
     color:black;
