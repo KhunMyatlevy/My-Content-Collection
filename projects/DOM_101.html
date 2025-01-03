@@ -9,38 +9,45 @@
 <body>
 
     <div class="project">
-        <h2>Data Types 101</h2>
-        <p>Front End Guide to the DOM
-            အားလုံးပဲ mingalar pr Hacker အေးမောင်ပြန်လာပါပြီ။ဒီနေ့မှာတော့ front end development မှာအခြေခံကြပြီးသေသေချာချာကိုသိထားသင့်တဲ့ DOM ခေါ် Document Object Model အကြောင်းကိုရှင်းပြသွားမှာဖြစ်ပါတယ်။ DOM က front end app ရဲ့အစိတ်ပိုင်းတွေဖြစ်တဲ့Html, Css and JavaScript တို့ကိုချိတ်ဆက်ပေးထားတဲ့တံတားနဲ့တူပါတယ်။ client app (front end app) ကို dynamic and interactive ဖြစ်အောင်ရေးတဲ့အခါမှာ DOM ကအရေးကြီးတဲ့ concept တစ်ခုဖြစ်ပါတယ်။
-            
-            What is DOM ? (Document Object Model) 
-            
-            Dom ဆိုတာနားလည်လွယ်အောင်ပြောရရင်တော့ webpage ရဲ့ blue print နဲ့တူပြီး browser (JavaScript) ကိုထို webpage နဲ့ဘယ်လို interact လုပ်ရမလဲကိုလမ်းပြနိုင်ပါတယ်။
-            
-            ဥပမာပေးရရင်အကယ်၍ webpage ကသာအိမ်တစ်လုံးဖြစ်ခဲ့မယ်ဆိုရင်အိမ်ကိုဆောက်ထားတဲ့အုတ်ခဲတွေက Html ဖြစ်ပြီးသုတ်ဆေးတွေက Css ဖြစ်မှာပါ။ browser (JavaScript) ကတော့နေထိုင်သူဖြစ်ပြီး DOM ကတော့ထိုအိမ်ရဲ့အသေးစိတ် design ပဲဖြစ်ပါတယ်။ DOM ကနေတဲ့လူ browser (JavaScript) ကိုဘယ်အခန်းက(Html) ဘယ်နေရာမှာရှိပြီးဘယ်လိုပုံစံ(Css)ရှိလဲဆိုတာကိုပြောပြပေးနိုင်ပါတယ်။ဒါမှနေတဲ့လူကအဲအခန်းတွေကိုသွားလာနိုင်မှာဖြစ်ပါတယ်။
-            
-            ရှင်းရှင်းပြောရရင် DOM က JavaScript ကို webpage ရဲ့ Html and CSS တွေနဲ့ဘယ်လို interact ရမလဲဆိုတာပြောပြပါတယ်။ သူက conceptအရbackendရဲ့ Model နဲ့တောင်သွားဆင်တူနေပါပါတယ်။
-            
-            Why the DOM matter?
-            
-            Website တစ်ခုရဲ့ interact ဖြစ်မူကအခြေနေအများစုမှာ DOM ကြောင့်ပါပဲ။ ပြောချင်တာက DOM မပါရင် website ကို interact and dynamic ဖြစ်အောင်လုပ်ရတာခက်ပါတယ်။
-            Live search results လို text တွေကို dynamically update လုပ်တာမျိုးတွေ၊ dark theme ပြောင်းတာမျိုးတွေဆို DOM ကိုအသုံးပြုရပါတယ်။
-            
-            How JavaScript interact with DOM ?
-            
-            Selection specific element: ကိုယ် webpage ရဲ့ html element တစ်ခုကိုလိုချင်ရင် 
-            document.querySelector or getElementById ကိုသုံးပြီးလိုချင်တဲ့ element ကိုယူပြီး JavaScript functionality ထည့်လို့ရပါတယ်။ 
-            
-            Changing content: html element တစ်ခုကိုယူပြီးတော့လဲသူရဲ့ value ကိုကိုယ်လိုချင်တဲ့အတိုင်း dynamically ပြောင်းလဲလို့လည်းရပါတယ်။
-            element.innerHTML = "Hello, World!"
-            
-            Adding interactivity: ဒီတစ်ခုကတော့ event listener တွေပါထည့်ပြီး webpage ကို interactive ဖြစ်အောင်လုပ်တာပါ။ event and event listener အကြောင်းကိုရေးစေချင်ရင်အောက်က comments မှာပြောသွားလို့ရပါတယ်။
-            element.addEventListener("click", function() { alert("Clicked!"); });
-            
-            DOM ဆိုတာကတော့ front end development ရဲ့ model လိုဖြစ်ပြီး JavaScript ကို html element တွေနဲ့ interact လုပ်နိုင်စေပါတယ်။ JavaScript က html element တွေကို interact လုပ်နိုင်စေခြင်းဖြင့် webpage က dynamic and interact ဖြစ်လာမှာပါ။
-            
-            ဒါကတော့ front end development မှာအခြေခံလည်းကျသလိုအရေးလည်းကြီးတဲ့ DOM ခေါ် Document Object Model ပဲဖြစ်ပါတယ်။ဒီpage မှာ programming နဲ့ပတ်သက်တာတွေတင်ပေးသွားမှာဖြစ်တဲ့အတွက်ကြိုက်နှစ်သက်ရင်တော့ like and follow လုပ်သွားလိုရပါတယ်။ဒီ post ကိုကြိုက်နှစ်သက်ရင်လဲ like and share သွားလိုရပါတယ်။သိချင်တာရှိရင်လဲ comments or cb မှာလာမေးလို့ရပါတယ်။ ရေး‌ေစချင်တာမျိုးရှိရင်လဲ cb or comments မှာရေးသွားလို့ရပါတယ်။ဒီနေ့တော့ဒီလောက်ပါပဲ။
+        <h2>DOM ဆိုတာဘာလဲလဲ </h2>
+        <p>
+            အားလုံးပဲ <strong>mingalar pr</strong> Hacker အေးမောင်ပြန်လာပါပြီ။ ဒီနေ့မှာတော့ front end development မှာအခြေခံကြပြီးသေသေချာချာကိုသိထားသင့်တဲ့ 
+            <strong>DOM (Document Object Model)</strong> အကြောင်းကိုရှင်းပြသွားမှာဖြစ်ပါတယ်။ DOM က front end app 
+            ရဲ့အစိတ်ပိုင်းတွေဖြစ်တဲ့ <strong>HTML, CSS</strong> and <strong>JavaScript</strong> တို့ကိုချိတ်ဆက်ပေးထားတဲ့တံတားနဲ့တူပါတယ်။ 
+            client app (front end app) ကို <strong>dynamic</strong> နဲ့ <strong>interactive</strong> ဖြစ်အောင်ရေးတဲ့အခါမှာ DOM ကအရေးကြီးတဲ့ concept 
+            တစ်ခုဖြစ်ပါတယ်။ <br><br>
+        
+            <strong>What is DOM?</strong><br>
+            (<strong>Document Object Model</strong>) DOM ဆိုတာနားလည်လွယ်အောင်ပြောရရင်တော့ webpage ရဲ့ blue print နဲ့တူပြီး browser 
+            (<strong>JavaScript</strong>) ကိုထို webpage နဲ့ဘယ်လို interact လုပ်ရမလဲကိုလမ်းပြနိုင်ပါတယ်။ ဥပမာပေးရရင်အကယ်၍ webpage ကသာအိမ်တစ်လုံးဖြစ်ခဲ့မယ်ဆိုရင် 
+            အိမ်ကိုဆောက်ထားတဲ့အုတ်ခဲတွေက <strong>HTML</strong> ဖြစ်ပြီးသုတ်ဆေးတွေက <strong>CSS</strong> ဖြစ်မှာပါ။ browser (<strong>JavaScript</strong>) ကတော့ 
+            နေထိုင်သူဖြစ်ပြီး DOM ကတော့ထိုအိမ်ရဲ့အသေးစိတ် design ပဲဖြစ်ပါတယ်။ DOM ကနေတဲ့လူ browser (<strong>JavaScript</strong>) ကိုဘယ်အခန်းက
+            (<strong>HTML</strong>) ဘယ်နေရာမှာရှိပြီးဘယ်လိုပုံစံ(<strong>CSS</strong>)ရှိလဲဆိုတာကိုပြောပြပေးနိုင်ပါတယ်။ ဒါမှနေတဲ့လူကအဲအခန်းတွေကိုသွားလာနိုင်မှာဖြစ်ပါတယ်။ 
+            ရှင်းရှင်းပြောရရင် DOM က JavaScript ကို webpage ရဲ့ HTML and CSS တွေနဲ့ဘယ်လို interact ရမလဲဆိုတာပြောပြပါတယ်။ သူက concept အရ 
+            backend ရဲ့ Model နဲ့တောင်သွားဆင်တူနေပါပါတယ်။ <br><br>
+        
+            <strong>Why the DOM matter?</strong><br>
+            Website တစ်ခုရဲ့ interact ဖြစ်မှုကအခြေနေအများစုမှာ DOM ကြောင့်ပါပဲ။ ပြောချင်တာက DOM မပါရင် website ကို interact 
+            and dynamic ဖြစ်အောင်လုပ်ရတာခက်ပါတယ်။ Live search results လို text တွေကို dynamically update လုပ်တာမျိုးတွေ၊ dark theme 
+            ပြောင်းတာမျိုးတွေဆို DOM ကိုအသုံးပြုရပါတယ်။ <br><br>
+        
+            <strong>How JavaScript interact with DOM?</strong><br>
+            <strong>Selection specific element:</strong> ကိုယ် webpage ရဲ့ HTML element တစ်ခုကိုလိုချင်ရင် <code>document.querySelector</code> 
+            or <code>getElementById</code> ကိုသုံးပြီးလိုချင်တဲ့ element ကိုယူပြီး JavaScript functionality ထည့်လို့ရပါတယ်။ <br>
+            <strong>Changing content:</strong> HTML element တစ်ခုကိုယူပြီးတော့လဲသူရဲ့ value ကိုကိုယ်လိုချင်တဲ့အတိုင်း dynamically ပြောင်းလဲလို့လည်းရပါတယ်။ 
+            <code>element.innerHTML = "Hello, World!"</code> <br>
+            <strong>Adding interactivity:</strong> ဒီတစ်ခုကတော့ event listener တွေပါထည့်ပြီး webpage ကို interactive ဖြစ်အောင်လုပ်တာပါ။ event and event 
+            listener အကြောင်းကိုရေးစေချင်ရင်အောက်က comments မှာပြောသွားလို့ရပါတယ်။ 
+            <code>element.addEventListener("click", function() { alert("Clicked!"); });</code> <br><br>
+        
+            DOM ဆိုတာကတော့ front end development ရဲ့ model လိုဖြစ်ပြီး JavaScript ကို HTML element တွေနဲ့ interact လုပ်နိုင်စေပါတယ်။ 
+            JavaScript က HTML element တွေကို interact လုပ်နိုင်စေခြင်းဖြင့် webpage က dynamic and interactive ဖြစ်လာမှာပါ။ 
+            ဒါကတော့ front end development မှာအခြေခံလည်းကျသလိုအရေးလည်းကြီးတဲ့ <strong>DOM (Document Object Model)</strong> ပဲဖြစ်ပါတယ်။ 
+            ဒီ page မှာ programming နဲ့ပတ်သက်တာတွေတင်ပေးသွားမှာဖြစ်တဲ့အတွက်ကြိုက်နှစ်သက်ရင်တော့ like and follow လုပ်သွားလိုရပါတယ်။ 
+            ဒီ post ကိုကြိုက်နှစ်သက်ရင်လဲ like and share သွားလိုရပါတယ်။ သိချင်တာရှိရင်လဲ comments or cb မှာလာမေးလို့ရပါတယ်။ 
+            ရေးစေချင်တာမျိုးရှိရင်လဲ cb or comments မှာရေးသွားလို့ရပါတယ်။ ဒီနေ့တော့ဒီလောက်ပါပဲ။
         </p>
+        
         
         <div class="project-screenshot">
             <img src="../images/Document Object Model.png" alt="DOM 101">

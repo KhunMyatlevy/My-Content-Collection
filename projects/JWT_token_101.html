@@ -10,36 +10,48 @@
 
     <div class="project">
         <h2>JWT token 101</h2>
-        <p>Web Token 101
-
-            What’s up! Tech Nerds! Hacker အေးမောင် ပဲဖြစ်ပါတယ်။ ဒီနေမှာတော့ web development မှာအရေးကြီးတဲ့အစိတ်ပိုင်းတစ်ခုဖြစ်တဲ့ web token အကြောင်းကိုပြောပြပေးသွားမှာပဲဖြစ်ပါတယ်။ Token ဆိုတာ user authentication နှင့် authorization မှာသုံးတဲ့လက်မှတ်လို့မှတ်ယူနိုင်ပါတယ်။ 
-            
-            Authentication : Authentication ဆိုတာက Login ဝင်လာတဲ့ user ကို Register လုပ်ထားတာဟုတ်မဟုတ်ကိုစစ်တာလို့အလွယ်မှတ်လို့ရပါတယ်။
-            
-            Authorization : Authorization ဆိုတာကတော့ Login ဝင်ပြီး user ကိုကိုယ့် website မှာဘယ်လိုလုပ်ပိုင်ခွင့်ပေးမလဲဆုံးဖြတ်တာမျိုးပါ။ For example: သာမာန် user တစ်ယောက်ကို ကိုယ့် website ရဲ့ admin pannle မျိုး‌တွေဆိုဝင်ကြည့်ခွင့်ေပးတာမပေးတာမျိုးပေါ့။
-            
-            Stateless Communication : Token သုံးရင် web က Stateless Communication ဖြစ်ပါတယ်။နားလည်လွယ်အောင်ပြောရရင်တော့ client app (browser or front end) က server(backend) နဲ့ communicate လုပ်ရင် server ကဘာ client app နဲ့ပတ်သက်တဲ့ ဘာ data ကိုမှမမှတ်ထားတာမျိုးပါ။ရှင်းရှင်းပြောရရင် client app က request တစ်ခုလုပ်လိုက်တိုင်းလိုအပ်တဲ့ data တွေအကုန်လုံးကိုပြန် ပြန်ပေးရတာမျိုးပါ။ဒါကိုလည်း token အလုပ်လုပ်ပုံကိုနားလည်ရင်ပိုပြီးနားလည်သွားပါလိ့်မ်မယ်။
-            
-            How Tokens Work 
-            
-            ပထမဆုံး user အနေနဲ့ login ရပါလိမ့်မယ်။ Login လိုက်တာနဲ့ server ကဒီ user က register လုပ်ထားတဲ့ user မှန်တယ်ဆိုရင် token တစ်ခုဖန်တီးပေးပါတယ်။ဒါကိုများသောအားဖြင့် browser ရဲ့ local storage ထဲမှာပဲသိမ်းထားလေ့ရှိပါတယ်။
-            
-            Token ထဲမှာဘာ data တွေပါလဲဆိုရင်
-            User Identity ကိုသိနိုင်ဖို့အတွက် user id, user name or email address လိုမျိုးတွေပါပါတယ်။ 
-            Token Expiration Time ကိုပြသဖို့အတွက် Expiration Time လိုမျိုးလည်းပါဝင်ပါတယ်။
-            Role or Permissions ကိုသိနိုင်ဖို့အတွက် user role ကိုပြသတဲ့ data မျိုးတွေလဲရံဖန်ရံခါပါဝင်ပါတယ်။
-            Custom Claims အနေနဲ့ကိုယ်ရဲ့ website ရဲ့လိုအပ်ချက်လိုအပ်သလို data တွေကိုထည့်ရတာတေွလည်းရှိပါတယ်။
-            
-            Token လည်းရပြီ  local storage ထဲမှာလည်းထည့်ပြီးပြီဆိုရင်တော့စပြီးအလုပ်လုပ်ပါပြီ။ User က request တစ်ခုလုပ်လိုက်တိုင်း Token ကိုပါတစ်ခါထဲ server စီပို့‌ပေးတဲ့ request ထဲထည့်ပို့‌ေပးရပါတယ်။ Server က token ကိုစစ်ဆေးပြီးမှန်ကန်တယ်ဆိုရင်တော့ user request ကိုဖြည့်ဆည်းပေးပါတယ်။
-            
-            Types of Tokens
-            
-            Access Token : Access Token ဆိုတာက‌တော့ user က login ဝင်ပြီးနောက်လုပ်သမျှ request တိုင်းမှာထည့်ပေးရတဲ့ token ပါပဲ။ သူကိုကြည့်ပြီး server က request လုပ်လာတဲ့ user ကို request ကိုဖြည်းဆည်းပေးသင့်မသင့်ကိုဆုံးဖြတ်‌ပေးပါတယ်။
-            
-            Refresh Token : ခုဏက token မှာ Expiration time လိုမျိုးရှိတာကိုပြောပြခဲ့တာမှတ်မိတယ်ဟုတ်။ token expired သွားတဲ့အခါ refresh token ကိုသုံးပြီး server ကို token အသစ်ကိုပြန်တောင်းရပါတယ်။
-            
-            ဒါကတော့ website တွေရဲ့ authentication နှင့် authorization မှာအသုံးပြုလေ့ရှိတဲ့ token တွေအကြောင်းပဲဖြစ်ပါတယ်။ဒီ page မှာ programming နဲ့ပတ်သက်တာတွေတင်ပေးသွားမှာဖြစ်တဲ့အတွက်ကြိုက်နှစ်သက်ရင်တော့ like and follow လုပ်သွားလို့ရပါတယ်။ဒီ post ကိုကြိုက်နှစ်သက်ရင်လဲ like and share သွားလို့ရပါတယ်။ဒီနေ့တော့ဒီလောက်ပါပဲ။
+        <p>
+            What’s up! Tech Nerds! Hacker <strong>အေးမောင်</strong> ပဲဖြစ်ပါတယ်။ ဒီနေမှာတော့ web development မှာအရေးကြီးတဲ့အစိတ်ပိုင်းတစ်ခုဖြစ်တဲ့ 
+            <strong>web token</strong> အကြောင်းကိုပြောပြပေးသွားမှာပဲဖြစ်ပါတယ်။ Token ဆိုတာ user authentication နှင့် authorization မှာသုံးတဲ့လက်မှတ်လို့မှတ်ယူနိုင်ပါတယ်။
+            <br><br>
+        
+            <strong>Authentication</strong>: Authentication ဆိုတာကတော့ Login ဝင်လာတဲ့ user ကို Register လုပ်ထားတာဟုတ်မဟုတ်ကိုစစ်တာလို့အလွယ်မှတ်လို့ရပါတယ်။
+            <br><br>
+        
+            <strong>Authorization</strong>: Authorization ဆိုတာကတော့ Login ဝင်ပြီး user ကိုကိုယ့် website မှာဘယ်လိုလုပ်ပိုင်ခွင့်ပေးမလဲဆုံးဖြတ်တာမျိုးပါ။ 
+            For example: သာမာန် user တစ်ယောက်ကို ကိုယ့် website ရဲ့ admin pannle မျိုး‌တွေဆိုဝင်ကြည့်ခွင့်ပေးတာမပေးတာမျိုးပေါ့။ 
+            <br><br>
+        
+            <strong>Stateless Communication</strong>: Token သုံးရင် web က Stateless Communication ဖြစ်ပါတယ်။ 
+            နားလည်လွယ်အောင်ပြောရရင်တော့ client app (browser or front end) က server(backend) နဲ့ communicate လုပ်ရင် server ကဘာ client app နဲ့ပတ်သက်တဲ့ 
+            ဘာ data ကိုမှမမှတ်ထားတာမျိုးပါ။ ရှင်းရှင်းပြောရရင် client app က request တစ်ခုလုပ်လိုက်တိုင်းလိုအပ်တဲ့ data တွေအကုန်လုံးကိုပြန် ပြန်ပေးရတာမျိုးပါ။
+            ဒါကိုလည်း token အလုပ်လုပ်ပုံကိုနားလည်ရင်ပိုပြီးနားလည်သွားပါလိ့်မ်မယ်။
+            <br><br>
+        
+            <strong>How Tokens Work</strong><br>
+            ပထမဆုံး user အနေနဲ့ login ရပါလိမ့်မယ်။ Login လိုက်တာနဲ့ server ကဒီ user က register လုပ်ထားတဲ့ user မှန်တယ်ဆိုရင် token တစ်ခုဖန်တီးပေးပါတယ်။ 
+            ဒါကိုများသောအားဖြင့် browser ရဲ့ <strong>local storage</strong> ထဲမှာပဲသိမ်းထားလေ့ရှိပါတယ်။ 
+            Token ထဲမှာဘာ data တွေပါလဲဆိုရင် User Identity ကိုသိနိုင်ဖို့အတွက် user id, user name or email address လိုမျိုးတွေပါပါတယ်။ 
+            Token Expiration Time ကိုပြသဖို့အတွက် Expiration Time လိုမျိုးလည်းပါဝင်ပါတယ်။ 
+            Role or Permissions ကိုသိနိုင်ဖို့အတွက် user role ကိုပြသတဲ့ data မျိုးတွေလဲရံဖန်ရံခါပါဝင်ပါတယ်။ 
+            Custom Claims အနေနဲ့ကိုယ်ရဲ့ website ရဲ့လိုအပ်ချက်လိုအပ်သလို data တွေကိုထည့်ရတာတေွလည်းရှိပါတယ်။ 
+            Token လည်းရပြီ local storage ထဲမှာလည်းထည့်ပြီးပြီဆိုရင်တော့စပြီးအလုပ်လုပ်ပါပြီ။ 
+            User က request တစ်ခုလုပ်လိုက်တိုင်း Token ကိုပါတစ်ခါထဲ server စီပို့‌ပေးတဲ့ request ထဲထည့်ပို့‌ပေးရပါတယ်။ 
+            Server က token ကိုစစ်ဆေးပြီးမှန်ကန်တယ်ဆိုရင်တော့ user request ကိုဖြည့်ဆည်းပေးပါတယ်။ 
+            <br><br>
+        
+            <strong>Types of Tokens</strong><br>
+            <strong>Access Token</strong>: Access Token ဆိုတာက‌တော့ user က login ဝင်ပြီးနောက်လုပ်သမျှ request တိုင်းမှာထည့်ပေးရတဲ့ token ပါပဲ။ 
+            သူကိုကြည့်ပြီး server က request လုပ်လာတဲ့ user ကို request ကိုဖြည်းဆည်းပေးသင့်မသင့်ကိုဆုံးဖြတ်‌ပေးပါတယ်။
+            <br><br>
+        
+            <strong>Refresh Token</strong>: ခုဏက token မှာ Expiration time လိုမျိုးရှိတာကိုပြောပြခဲ့တာမှတ်မိတယ်ဟုတ်။ 
+            token expired သွားတဲ့အခါ refresh token ကိုသုံးပြီး server ကို token အသစ်ကိုပြန်တောင်းရပါတယ်။ 
+            ဒါကတော့ website တွေရဲ့ authentication နှင့် authorization မှာအသုံးပြုလေ့ရှိတဲ့ token တွေအကြောင်းပဲဖြစ်ပါတယ်။ 
+            ဒီ page မှာ programming နဲ့ပတ်သက်တာတွေတင်ပေးသွားမှာဖြစ်တဲ့အတွက်ကြိုက်နှစ်သက်ရင်တော့ like and follow လုပ်သွားလို့ရပါတယ်။ 
+            ဒီ post ကိုကြိုက်နှစ်သက်ရင်လဲ like and share သွားလို့ရပါတယ်။ ဒီနေ့တော့ဒီလောက်ပါပဲ။
         </p>
+        
      
         
         <div class="project-screenshot">
